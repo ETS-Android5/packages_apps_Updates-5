@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota;
+package org.simplify.ota;
 
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
@@ -50,20 +50,20 @@ import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.snackbar.Snackbar;
 
 import org.json.JSONException;
-import org.pixelexperience.ota.controller.ABUpdateInstaller;
-import org.pixelexperience.ota.controller.UpdaterController;
-import org.pixelexperience.ota.controller.UpdaterService;
-import org.pixelexperience.ota.download.DownloadClient;
-import org.pixelexperience.ota.misc.Constants;
-import org.pixelexperience.ota.misc.Utils;
-import org.pixelexperience.ota.model.UpdateInfo;
-import org.pixelexperience.ota.model.UpdateStatus;
+import org.simplify.ota.controller.ABUpdateInstaller;
+import org.simplify.ota.controller.UpdaterController;
+import org.simplify.ota.controller.UpdaterService;
+import org.simplify.ota.download.DownloadClient;
+import org.simplify.ota.misc.Constants;
+import org.simplify.ota.misc.Utils;
+import org.simplify.ota.model.UpdateInfo;
+import org.simplify.ota.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.UUID;
 
-import static org.pixelexperience.ota.model.UpdateStatus.UNKNOWN;
+import static org.simplify.ota.model.UpdateStatus.UNKNOWN;
 
 public class UpdatesActivity extends UpdatesListActivity {
 

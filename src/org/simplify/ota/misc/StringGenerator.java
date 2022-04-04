@@ -14,12 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.misc;
+package org.simplify.ota.misc;
 
 import android.content.Context;
 import android.content.res.Resources;
 
-import org.pixelexperience.ota.R;
+import org.simplify.ota.R;
 
 import java.text.DateFormat;
 import java.util.Date;
